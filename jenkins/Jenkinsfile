@@ -21,9 +21,9 @@ pipeline {
                 sh './jenkins/scripts/deliver.sh'
             }
         }
-        stage('Finally') {
+        stage('Finally Mulit') {
             steps {
-                echo 'Final stage complete !'   
+                echo 'Final stage complete for Multi !'   
             }
         }
     }
